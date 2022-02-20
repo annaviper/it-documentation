@@ -6,6 +6,12 @@ Azure Active Directory supports the following authentication methods:
 - OAUTH 2.0
 - OpenID Connect
 
+## Group Policy Object
+Adds additional controls to user accounts and computers.
+To apply GPO:
+```commandline
+gpupdate /force
+```
 
 # Windows\System32 Folders
 The System32 folder holds the important files that are critical for the operating system.  
